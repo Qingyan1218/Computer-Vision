@@ -1,8 +1,8 @@
 1、data文件夹：里面包含了原有的I和II两个文件夹，以及增广后的图片文件夹III，没有人脸的图片文件夹IV；
-4、train.txt和test.txt：用于训练和验证的样本数据集合；
-5、img_augmentation.py：用于生成增广图片数据的文件夹III及label.txt；
-6、data：生成用于训练和验证的数据集供模型调用；
-7、detector：用于训练、验证、微调和预测；
-8、gen_others：生成不带人脸的数据文件夹IV和label.txt
-9、generate_train_test_list：生成用于生成train.txt和test.txt；
-10、predict：用于预测的函数。
+2、train.txt和test.txt：用于训练和验证的样本数据集合；
+3、img_augmentation.py：用于生成增广图片数据的文件夹III及label.txt；
+4、data：生成用于训练和验证的数据集供模型调用；
+5、detector：用于训练、验证、微调和预测；
+6、gen_others：生成不带人脸的数据文件夹IV和label.txt
+7、generate_train_test_list：生成用于生成train.txt和test.txt；
+8、predict：用于预测的函数。
